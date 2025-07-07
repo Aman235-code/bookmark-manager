@@ -20,7 +20,7 @@ export default function BookmarkCard({ bookmark }) {
       animate={{ opacity: 1, y: 0 }}
       whileHover={{ scale: 1.02 }}
       transition={{ duration: 0.3 }}
-      className="bg-[#fefefe] rounded-2xl shadow-[0_4px_24px_rgba(0,0,0,0.05)] p-6 space-y-4 transition duration-300"
+      className="bg-[#fefefe] rounded-2xl shadow-[0_4px_24px_rgba(0,0,0,0.05)] p-6 space-y-4 transition duration-300 hover:cursor-pointer"
     >
       {/* Title + Link */}
       <motion.a
@@ -37,7 +37,7 @@ export default function BookmarkCard({ bookmark }) {
       </motion.a>
 
       {/* Description */}
-      <p className="text-gray-800 text-justify text-sm text-center">
+      <p className="text-gray-800 text-justify text-sm">
         {bookmark.description}
       </p>
 
