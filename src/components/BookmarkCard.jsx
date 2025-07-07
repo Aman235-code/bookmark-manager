@@ -1,7 +1,14 @@
 /* eslint-disable no-unused-vars */
-import React from "react";
-import { motion } from "framer-motion";
-import { ExternalLink, StickyNote, CalendarClock } from "lucide-react";
+import React, { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import {
+  ExternalLink,
+  StickyNote,
+  CalendarClock,
+  ChevronDown,
+  ChevronUp,
+  Bookmark,
+} from "lucide-react";
 
 const tagColors = {
   tools: "bg-blue-100 text-blue-700",
@@ -13,6 +20,8 @@ const tagColors = {
 };
 
 export default function BookmarkCard({ bookmark }) {
+  const [showNotes, setShowNotes] = useState(false);
+
   return (
     <motion.div
       layout
@@ -20,14 +29,20 @@ export default function BookmarkCard({ bookmark }) {
       animate={{ opacity: 1, y: 0 }}
       whileHover={{ scale: 1.02 }}
       transition={{ duration: 0.3 }}
-      className="bg-[#fefefe] rounded-2xl shadow-[0_4px_24px_rgba(0,0,0,0.05)] p-6 space-y-4 transition duration-300 hover:cursor-pointer"
+      className="hover:cursor-pointer relative mt-6 bg-[#fefefe] rounded-2xl shadow-[0_4px_24px_rgba(0,0,0,0.05)] p-6 pt-8 space-y-4 transition duration-300"
     >
-      {/* Title + Link */}
+      {/* 📌 Bookmark Icon */}
+      <Bookmark
+        size={20}
+        className="absolute top-3 right-3 text-gray-400 hover:text-yellow-500 transition-colors"
+      />
+
+      {/* Title */}
       <motion.a
         href={bookmark.url}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-xl font-bold text-center text-red-600 flex items-center justify-center gap-2 break-words"
+        className="text-xl pt-8 font-bold text-center text-red-600 flex items-center justify-center gap-2 break-words"
         initial={{ color: "#DC2626" }}
         whileHover={{ color: "#991B1B" }}
         transition={{ duration: 0.3 }}
@@ -41,11 +56,38 @@ export default function BookmarkCard({ bookmark }) {
         {bookmark.description}
       </p>
 
-      {/* Notes */}
+      {/* Notes Toggle */}
       {bookmark.notes && (
-        <p className="text-sm text-green-600 font-medium flex items-center justify-center gap-1">
-          <StickyNote size={16} /> {bookmark.notes}
-        </p>
+        <div className="text-center">
+          <button
+            onClick={() => setShowNotes((prev) => !prev)}
+            className="text-sm text-blue-600 hover:underline flex items-center justify-center mx-auto gap-1"
+          >
+            {showNotes ? (
+              <>
+                <ChevronUp size={16} /> Hide Notes
+              </>
+            ) : (
+              <>
+                <ChevronDown size={16} /> Show Notes
+              </>
+            )}
+          </button>
+
+          <AnimatePresence>
+            {showNotes && (
+              <motion.p
+                key="notes"
+                initial={{ opacity: 0, height: 0 }}
+                animate={{ opacity: 1, height: "auto" }}
+                exit={{ opacity: 0, height: 0 }}
+                className="text-sm text-green-600 font-medium mt-2 flex items-center justify-center gap-1 overflow-hidden"
+              >
+                <StickyNote size={18} /> {bookmark.notes}
+              </motion.p>
+            )}
+          </AnimatePresence>
+        </div>
       )}
 
       {/* Tags */}

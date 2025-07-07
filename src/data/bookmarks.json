@@ -2,7 +2,7 @@
     {
         "title": "Git Hub",
         "url": "https://github.com/Aman235-code",
-        "description": "My GitHub profile where I store all my projects, code samples, and open-source experiments. This is also used for collaboration and version control. Stay updated with my commits and contributions here.",
+        "description": "My GitHub profile where I store all my projects, code samples, and open-source experiments. This is also used for collaboration and version control.",
         "tags": [
             "tools",
             "open-source",
@@ -14,12 +14,77 @@
     {
         "title": "AlternativeTo",
         "url": "https://alternativeto.net",
-        "description": "A platform to find free and open-source alternatives to popular paid software. It’s helpful when you're looking for cost-saving tools for development, productivity, or design. Also includes user ratings and comparisons.",
+        "description": "A platform to find free and open-source alternatives to popular paid software. It’s helpful when you're looking for cost-saving tools for development, productivity, or design.",
         "tags": [
             "tools",
             "software"
         ],
         "notes": "Use this site for researching software replacements.",
         "updatedAt": "6 July 2025"
+    },
+    {
+        "title": "YouTube",
+        "url": "https://youtube.com",
+        "description": "The largest video-sharing platform where you can watch tutorials, tech reviews, documentaries, and coding walkthroughs. It’s a great tool for visual learning, entertainment, and following your favorite creators.",
+        "tags": [
+            "video",
+            "learning",
+            "tools",
+            "tech"
+        ],
+        "notes": "Follow channels like Fireship, Web Dev Simplified, and Traversy Media for dev content.",
+        "updatedAt": "8 July 2025"
+    },
+    {
+        "title": "ChatGPT",
+        "url": "https://chatgpt.com",
+        "description": "AI chatbot by OpenAI that helps with programming, writing, brainstorming, and much more. It's a powerful productivity assistant for developers, students, and creators.",
+        "tags": [
+            "ai",
+            "tools",
+            "writing",
+            "assistant"
+        ],
+        "notes": "I use it daily for debugging, project ideas, and learning new tech fast.",
+        "updatedAt": "8 July 2025"
+    },
+    {
+        "title": "Google Maps",
+        "url": "https://maps.google.com",
+        "description": "Use Google Maps for navigation, traffic info, and discovering nearby places like restaurants, gas stations, and ATMs. It offers satellite views, real-time directions, and saved locations.",
+        "tags": [
+            "tools",
+            "navigation",
+            "location",
+            "travel"
+        ],
+        "notes": "Use 'Your Places' to pin locations I visit often or want to remember.",
+        "updatedAt": "8 July 2025"
+    },
+    {
+        "title": "Vercel",
+        "url": "https://vercel.com",
+        "description": "Vercel is a cloud platform for hosting front-end frameworks and static sites, especially optimized for React, Next.js, Vue, and Svelte. Offers instant deployments, GitHub integration, serverless functions, analytics, and custom domains.",
+        "tags": [
+            "tools",
+            "deployment",
+            "hosting",
+            "frontend"
+        ],
+        "notes": "I use it to instantly deploy all my React and Vite projects. Super fast with GitHub integration!",
+        "updatedAt": "8 July 2025"
+    },
+    {
+        "title": "Netlify",
+        "url": "https://www.netlify.com",
+        "description": "Netlify is a powerful cloud hosting platform for static websites and JAMstack apps. It supports continuous deployment from Git, custom domains, serverless functions, form handling, and edge functions — all with a simple developer-friendly workflow.",
+        "tags": [
+            "tools",
+            "deployment",
+            "hosting",
+            "jamstack"
+        ],
+        "notes": "I use Netlify for quick deploys of HTML, JS, and Tailwind projects. Built-in form support is super handy!",
+        "updatedAt": "8 July 2025"
     }
 ]
