@@ -12,17 +12,6 @@
         "updatedAt": "7 July 2025"
     },
     {
-        "title": "AlternativeTo",
-        "url": "https://alternativeto.net",
-        "description": "A platform to find free and open-source alternatives to popular paid software. It’s helpful when you're looking for cost-saving tools for development, productivity, or design.",
-        "tags": [
-            "tools",
-            "software"
-        ],
-        "notes": "Use this site for researching software replacements.",
-        "updatedAt": "6 July 2025"
-    },
-    {
         "title": "YouTube",
         "url": "https://youtube.com",
         "description": "The largest video-sharing platform where you can watch tutorials, tech reviews, documentaries, and coding walkthroughs. It’s a great tool for visual learning, entertainment, and following your favorite creators.",
@@ -98,6 +87,32 @@
             "resources"
         ],
         "notes": "Use for downloading high-quality SVG icons and illustrations. Supports searching by keyword and style.",
+        "updatedAt": "8 July 2025"
+    },
+    {
+        "title": "Formspree Contact API",
+        "url": "https://formspree.io/forms/mzzgwaqd/integration",
+        "description": "Formspree provides a simple way to handle form submissions for static sites. This specific page contains the API integration details for the contact form used in my blog and portfolio project. It includes the endpoint and API key setup.",
+        "tags": [
+            "forms",
+            "api",
+            "contact",
+            "tools"
+        ],
+        "notes": "Use this link when configuring contact form integration in React projects using Formspree's POST endpoint.",
+        "updatedAt": "8 July 2025"
+    },
+    {
+        "title": "MongoDB Atlas Cluster",
+        "url": "https://cloud.mongodb.com/v2/67286517077cc50840560501#/clusters",
+        "description": "MongoDB Atlas is a fully managed cloud database service for MongoDB. This link leads to the cluster dashboard where I manage databases, monitor performance, connect my apps securely, and handle backup and scaling configurations.",
+        "tags": [
+            "database",
+            "mongodb",
+            "cloud",
+            "backend"
+        ],
+        "notes": "Use this to manage cluster connections and access credentials for full-stack projects using MongoDB.",
         "updatedAt": "8 July 2025"
     }
 ]
