@@ -86,5 +86,18 @@
         ],
         "notes": "I use Netlify for quick deploys of HTML, JS, and Tailwind projects. Built-in form support is super handy!",
         "updatedAt": "8 July 2025"
+    },
+    {
+        "title": "SVGRepo",
+        "url": "https://www.svgrepo.com/",
+        "description": "A massive free library of over 500,000 SVG vector icons and illustrations. Great for designers, developers, and UI creators looking for clean and customizable graphics. All icons are available in multiple styles and formats.",
+        "tags": [
+            "design",
+            "icons",
+            "svg",
+            "resources"
+        ],
+        "notes": "Use for downloading high-quality SVG icons and illustrations. Supports searching by keyword and style.",
+        "updatedAt": "8 July 2025"
     }
 ]
