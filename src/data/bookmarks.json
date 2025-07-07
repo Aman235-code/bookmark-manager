@@ -1,0 +1,25 @@
+[
+    {
+        "title": "Git Hub",
+        "url": "https://github.com/Aman235-code",
+        "description": "My GitHub profile where I store all my projects, code samples, and open-source experiments. This is also used for collaboration and version control. Stay updated with my commits and contributions here.",
+        "tags": [
+            "tools",
+            "open-source",
+            "git-hub"
+        ],
+        "notes": "Tracking the code and pushing daily updates.",
+        "updatedAt": "7 July 2025"
+    },
+    {
+        "title": "AlternativeTo",
+        "url": "https://alternativeto.net",
+        "description": "A platform to find free and open-source alternatives to popular paid software. It’s helpful when you're looking for cost-saving tools for development, productivity, or design. Also includes user ratings and comparisons.",
+        "tags": [
+            "tools",
+            "software"
+        ],
+        "notes": "Use this site for researching software replacements.",
+        "updatedAt": "6 July 2025"
+    }
+]
