@@ -1,5 +1,19 @@
 [
     {
+        "title": "Gmail Inbox",
+        "url": "https://mail.google.com/mail/u/0/#inbox",
+        "description": "Direct link to your Gmail inbox for accessing, reading, and managing emails. Useful for quickly jumping to your primary email interface.",
+        "tags": [
+            "gmail",
+            "email",
+            "google",
+            "inbox",
+            "tools"
+        ],
+        "notes": "Use this URL to quickly open your Gmail inbox in a logged-in session. Not shareable unless the receiver has access to your account.",
+        "updatedAt": "8 July 2025"
+    },
+    {
         "title": "Git Hub",
         "url": "https://github.com/Aman235-code",
         "description": "My GitHub profile where I store all my projects, code samples, and open-source experiments. This is also used for collaboration and version control.",
@@ -92,7 +106,7 @@
     {
         "title": "Formspree Contact API",
         "url": "https://formspree.io/forms/mzzgwaqd/integration",
-        "description": "Formspree provides a simple way to handle form submissions for static sites. This specific page contains the API integration details for the contact form used in my blog and portfolio project. It includes the endpoint and API key setup.",
+        "description": "Formspree provides a simple way to handle form submissions for static sites. This specific page contains the API integration details for the contact form used in my blog and portfolio project.",
         "tags": [
             "forms",
             "api",
@@ -113,6 +127,48 @@
             "backend"
         ],
         "notes": "Use this to manage cluster connections and access credentials for full-stack projects using MongoDB.",
+        "updatedAt": "8 July 2025"
+    },
+    {
+        "title": "Cohere API Keys Dashboard",
+        "url": "https://dashboard.cohere.com/api-keys",
+        "description": "This page allows you to generate and manage API keys for accessing Cohere's NLP services. Required for integrating Cohere into your React/Node projects.",
+        "tags": [
+            "cohere",
+            "api",
+            "nlp",
+            "keys",
+            "tools"
+        ],
+        "notes": "Use this page to copy your API key and integrate it securely in your backend when calling Cohere endpoints.",
+        "updatedAt": "8 July 2025"
+    },
+    {
+        "title": "WeatherAPI Key Dashboard",
+        "url": "https://www.weatherapi.com/my/",
+        "description": "This page provides access to your API key and usage stats for WeatherAPI.com, a service used to fetch real-time weather data in web and mobile apps.",
+        "tags": [
+            "weather",
+            "api",
+            "weatherapi",
+            "tools",
+            "keys"
+        ],
+        "notes": "Use this page to get your WeatherAPI key and track quota usage. Ideal for weather apps built with React and Node.",
+        "updatedAt": "8 July 2025"
+    },
+    {
+        "title": "Weather App (Vercel)",
+        "url": "https://weather-api-lac-pi.vercel.app/",
+        "description": "A simple and responsive weather application built using React, Tailwind CSS, and WeatherAPI.com. It displays current weather details for any city entered by the user.",
+        "tags": [
+            "weather",
+            "react",
+            "tailwind",
+            "vercel",
+            "project"
+        ],
+        "notes": "Deployed on Vercel. This app fetches real-time weather data using the WeatherAPI.com key and provides a user-friendly UI with Lucide icons and Framer Motion animations.",
         "updatedAt": "8 July 2025"
     }
 ]
