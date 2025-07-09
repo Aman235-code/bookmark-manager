@@ -170,5 +170,95 @@
         ],
         "notes": "Deployed on Vercel. This app fetches real-time weather data using the WeatherAPI.com key and provides a user-friendly UI with Lucide icons and Framer Motion animations.",
         "updatedAt": "8 July 2025"
+    },
+    {
+        "title": "LightPDF - Edit PDF Online",
+        "url": "https://lightpdf.com/edit-pdf",
+        "description": "A free and easy-to-use online PDF editor that allows you to add text, images, shapes, and annotations directly to your PDF files from the browser with no installation needed.",
+        "tags": [
+            "pdf",
+            "editor",
+            "tool",
+            "webapp",
+            "free"
+        ],
+        "notes": "No sign-up required. Supports uploading PDFs for direct editing in the browser. Also offers tools like highlight, text addition, shapes, and drawing.",
+        "updatedAt": "9 July 2025"
+    },
+    {
+        "title": "Google Gemini (AI Assistant)",
+        "url": "https://gemini.google.com/app",
+        "description": "Google’s multimodal AI assistant app, formerly Bard, now available as a web and mobile interface to the Gemini family of AI models—capable of handling text, voice, images, video, and more.",
+        "tags": [
+            "ai",
+            "assistant",
+            "multimodal",
+            "google",
+            "webapp",
+            "mobile"
+        ],
+        "notes": "Accessible via web, Android and iOS. Features include Gemini Live voice interaction, image generation, file summarization, integration with Gmail, Drive, Maps and more, customizable 'Gems' chatbots, and support for long‑context workflows via uploads and deep research. Free tier available; Pro/Ultra subscriptions unlock models like Gemini 2.5 Pro and video generation with Veo. Latest privacy update limits data retention to 72 hours unless activity history is enabled.",
+        "updatedAt": "9 July 2025"
+    },
+    {
+        "title": "Imgflip – Meme & GIF Maker",
+        "url": "https://imgflip.com/",
+        "description": "A fast and flexible web‑based meme and GIF creator, offering over a million popular meme templates, customizable text, stickers, drawings, animations, and AI‑powered caption generation.",
+        "tags": [
+            "meme",
+            "gif",
+            "editor",
+            "ai",
+            "webapp",
+            "free"
+        ],
+        "notes": "Create memes and GIFs without sign‑up. Supports text, stickers, custom fonts (1,300+), drawings, image filters, meme chains, animated GIFs and video‑to‑GIF conversion. Includes an embedded AI meme generator (10 free/month, Pro unlocks unlimited and watermark‑free exports). Imgflip Pro removes watermarks, disables ads, and enables audio on GIFs. Founded by Imgflip LLC, bootstrapped company still independent. Pro pricing starts at ~$3.95/mo. Free plan adds subtle imgflip.com watermark on outputs.",
+        "updatedAt": "9 July 2025"
+    },
+    {
+        "title": "Humbot AI — Humanizer & AI Detector Bypass",
+        "url": "https://humbot.ai/",
+        "description": "A web‑based AI humanizer that rewrites AI‑generated text to make it more natural, bypass AI‑detection tools like GPTZero and Turnitin, and produce plagiarism‑free, human‑like content.",
+        "tags": [
+            "ai",
+            "humanizer",
+            "rewriter",
+            "detector‑bypass",
+            "webapp",
+            "free‑plan"
+        ],
+        "notes": "Free plan available (limited words). No login required for basic use. Offers built‑in AI detector, paraphrase modes including Academic, API access starting at ~$30/mo for 50,000 words. Effective at reducing AI detection scores (claimed ~95–99% human score), though results vary by platform and content type. Trusted by over 12 million users monthly. Outputs remain free of plagiarism and preserve original meaning. Supports 50+ languages. Updated mid‑2025.",
+        "updatedAt": "9 July 2025"
+    },
+    {
+        "title": "Hacksplaining – Interactive Security Lessons",
+        "url": "https://hacksplaining.com/lessons",
+        "description": "A completely free, browser‑based, interactive security training platform that teaches developers how to identify and fix common web vulnerabilities through hands‑on exercises.",
+        "tags": [
+            "security",
+            "web",
+            "owasp",
+            "training",
+            "webapp",
+            "free"
+        ],
+        "notes": "Covers 30+ real vulnerabilities (e.g. SQL Injection, XSS, CSRF, open redirect, file upload flaws) with live demos, code and explanations. Self‑paced and no signup required for basic lessons. Trusted by half a million users monthly, enterprise licensing available. Updated through mid‑2025.",
+        "updatedAt": "9 July 2025"
+    },
+    {
+        "title": "Cobalt Tools – Media Downloader",
+        "url": "https://cobalt.tools/",
+        "description": "A privacy-first, ad‑free web app that enables you to download videos, audio, GIFs, and images from popular platforms by simply pasting a public link.",
+        "tags": [
+            "media",
+            "downloader",
+            "video",
+            "audio",
+            "gif",
+            "webapp",
+            "free"
+        ],
+        "notes": "Supports YouTube (videos, Shorts, music), TikTok, Instagram Reels, Facebook, Twitter/X, Vimeo, Reddit, SoundCloud and others. No signup required, zero ads or trackers, with on‑device processing where possible for privacy. Maintains strict zero‑log policy. Typical errors reported include file‑tunnel or fetch failures especially on longer videos. Open‑source (AGPL‑3.0) and built by the imputnet community. Updated July 2025.",
+        "updatedAt": "9 July 2025"
     }
 ]
