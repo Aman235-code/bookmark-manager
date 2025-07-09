@@ -81,7 +81,7 @@ export default function BookmarkCard({ bookmark }) {
                 initial={{ opacity: 0, height: 0 }}
                 animate={{ opacity: 1, height: "auto" }}
                 exit={{ opacity: 0, height: 0 }}
-                className="text-sm text-green-600 font-medium mt-2 flex items-center justify-center gap-1 overflow-hidden"
+                className="text-sm text-justify text-green-600 font-medium mt-2 flex items-center justify-center gap-1 overflow-hidden"
               >
                 <StickyNote size={18} /> {bookmark.notes}
               </motion.p>

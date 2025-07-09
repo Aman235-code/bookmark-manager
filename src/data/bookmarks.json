@@ -28,7 +28,7 @@
     {
         "title": "YouTube",
         "url": "https://youtube.com",
-        "description": "The largest video-sharing platform where you can watch tutorials, tech reviews, documentaries, and coding walkthroughs. It’s a great tool for visual learning, entertainment, and following your favorite creators.",
+        "description": "The largest video-sharing platform where you can watch tutorials, tech reviews, documentaries, and coding walkthroughs.",
         "tags": [
             "video",
             "learning",
@@ -93,7 +93,7 @@
     {
         "title": "SVGRepo",
         "url": "https://www.svgrepo.com/",
-        "description": "A massive free library of over 500,000 SVG vector icons and illustrations. Great for designers, developers, and UI creators looking for clean and customizable graphics. All icons are available in multiple styles and formats.",
+        "description": "A massive free library of over 500,000 SVG vector icons and illustrations. Great for designers, developers, and UI creators looking for clean and customizable graphics.",
         "tags": [
             "design",
             "icons",
@@ -197,7 +197,7 @@
             "webapp",
             "mobile"
         ],
-        "notes": "Accessible via web, Android and iOS. Features include Gemini Live voice interaction, image generation, file summarization, integration with Gmail, Drive, Maps and more, customizable 'Gems' chatbots, and support for long‑context workflows via uploads and deep research. Free tier available; Pro/Ultra subscriptions unlock models like Gemini 2.5 Pro and video generation with Veo. Latest privacy update limits data retention to 72 hours unless activity history is enabled.",
+        "notes": "Accessible via web, Android and iOS. Features include Gemini Live voice interaction, image generation, file summarization, integration with Gmail, Drive, Maps and more, customizable 'Gems' chatbots, and support for long‑context workflows via uploads and deep research.",
         "updatedAt": "9 July 2025"
     },
     {
@@ -212,7 +212,7 @@
             "webapp",
             "free"
         ],
-        "notes": "Create memes and GIFs without sign‑up. Supports text, stickers, custom fonts (1,300+), drawings, image filters, meme chains, animated GIFs and video‑to‑GIF conversion. Includes an embedded AI meme generator (10 free/month, Pro unlocks unlimited and watermark‑free exports). Imgflip Pro removes watermarks, disables ads, and enables audio on GIFs. Founded by Imgflip LLC, bootstrapped company still independent. Pro pricing starts at ~$3.95/mo. Free plan adds subtle imgflip.com watermark on outputs.",
+        "notes": "Create memes and GIFs without sign‑up. Supports text, stickers, custom fonts (1,300+), drawings, image filters, meme chains, animated GIFs and video‑to‑GIF conversion. ",
         "updatedAt": "9 July 2025"
     },
     {
@@ -227,7 +227,7 @@
             "webapp",
             "free‑plan"
         ],
-        "notes": "Free plan available (limited words). No login required for basic use. Offers built‑in AI detector, paraphrase modes including Academic, API access starting at ~$30/mo for 50,000 words. Effective at reducing AI detection scores (claimed ~95–99% human score), though results vary by platform and content type. Trusted by over 12 million users monthly. Outputs remain free of plagiarism and preserve original meaning. Supports 50+ languages. Updated mid‑2025.",
+        "notes": "Free plan available (limited words). No login required for basic use. Offers built‑in AI detector, paraphrase modes including Academic, API access starting at ~$30/mo for 50,000 words.",
         "updatedAt": "9 July 2025"
     },
     {
@@ -242,7 +242,7 @@
             "webapp",
             "free"
         ],
-        "notes": "Covers 30+ real vulnerabilities (e.g. SQL Injection, XSS, CSRF, open redirect, file upload flaws) with live demos, code and explanations. Self‑paced and no signup required for basic lessons. Trusted by half a million users monthly, enterprise licensing available. Updated through mid‑2025.",
+        "notes": "Covers 30+ real vulnerabilities (e.g. SQL Injection, XSS, CSRF, open redirect, file upload flaws) with live demos, code and explanations. ",
         "updatedAt": "9 July 2025"
     },
     {
@@ -258,7 +258,71 @@
             "webapp",
             "free"
         ],
-        "notes": "Supports YouTube (videos, Shorts, music), TikTok, Instagram Reels, Facebook, Twitter/X, Vimeo, Reddit, SoundCloud and others. No signup required, zero ads or trackers, with on‑device processing where possible for privacy. Maintains strict zero‑log policy. Typical errors reported include file‑tunnel or fetch failures especially on longer videos. Open‑source (AGPL‑3.0) and built by the imputnet community. Updated July 2025.",
+        "notes": "Supports YouTube (videos, Shorts, music), TikTok, Instagram Reels, Facebook, Twitter/X, Vimeo, Reddit, SoundCloud and others. No signup required, zero ads or trackers, with on‑device processing where possible for privacy.",
+        "updatedAt": "9 July 2025"
+    },
+    {
+        "title": "BugMeNot – Shared Login Database",
+        "url": "https://bugmenot.com/",
+        "description": "A community‑driven service that provides usernames and passwords for websites requiring free registration, letting users bypass sign‑up walls without using personal email.",
+        "tags": [
+            "privacy",
+            "login",
+            "database",
+            "webapp",
+            "free",
+            "anon"
+        ],
+        "notes": "Launched in August 2003, BugMeNot allows sharing of public login credentials for thousands of sites—excluding pay‑walled services. No signup required.",
+        "updatedAt": "9 July 2025"
+    },
+    {
+        "title": "Grok – AI Chatbot by xAI",
+        "url": "https://grok.com/",
+        "description": "A conversational AI assistant developed by Elon Musk’s xAI offering real‑time answers, reasoning, meme‑smarts, text and image generation, and integration with X (formerly Twitter).",
+        "tags": [
+            "ai",
+            "chatbot",
+            "xai",
+            "real‑time",
+            "multimodal",
+            "webapp",
+            "mobile",
+            "subscription"
+        ],
+        "notes": "Launched Nov 3, 2023; latest stable version is Grok‑3 released Feb 17, 2025. Features include DeepSearch and 'Think' reasoning agents, image generation, and mobile/web access for Premium+ and SuperGrok subscribers.",
+        "updatedAt": "9 July 2025"
+    },
+    {
+        "title": "OpenAI.fm – Free Text‑to‑Speech Demo",
+        "url": "https://www.openai.fm/",
+        "description": "An interactive web-based demo showcasing OpenAI’s next‑generation text‑to‑speech model (gpt‑4o‑mini‑tts), enabling expressive, emotional, and multilingual voice output.",
+        "tags": [
+            "tts",
+            "text-to-speech",
+            "openai",
+            "audio",
+            "webapp",
+            "free",
+            "demo"
+        ],
+        "notes": "Offers over a dozen preset voices (e.g. Alloy, Ash, Ballad, Coral, Echo, Fable) and selectable emotional ‘vibes’ like dramatic or medieval. ",
+        "updatedAt": "9 July 2025"
+    },
+    {
+        "title": "Qwen Chat – Qwen AI by Alibaba Cloud",
+        "url": "https://chat.qwen.ai/",
+        "description": "A free and powerful multimodal chatbot by Alibaba Cloud powered by the Qwen model family, supporting text, image, audio, video input and generation, document analysis, web search integration and coding assistance.",
+        "tags": [
+            "ai",
+            "chatbot",
+            "multimodal",
+            "alibaba",
+            "qwen",
+            "webapp",
+            "free"
+        ],
+        "notes": "Offers guest mode with no signup. Built on the open‑source Qwen 2.5‑Omni and latest Qwen 3 models (released April 28, 2025 under Apache 2.0 license), featuring up to 128 000‑token context window, real‑time reasoning, video/image understanding, document uploads, code generation and translation in 119 languages.",
         "updatedAt": "9 July 2025"
     }
 ]
